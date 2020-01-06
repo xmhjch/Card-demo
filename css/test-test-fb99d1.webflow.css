@@ -1,0 +1,272 @@
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.card-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 266px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.molecule {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 24px 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.molecule.horizontal {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.indicator {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 6px;
+}
+
+.indicator.bg {
+  border-radius: 100px;
+  background-color: #e5e5e5;
+}
+
+.indicator-first {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 43.6px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #228630;
+  height: 6px;
+}
+
+.indicator-second {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 87px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #228630;
+  height: 6px;
+}
+
+.indicator-third {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 109px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #fb8839;
+  height: 6px;
+}
+
+.indicator-forth {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 130px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #E2532F;
+  height: 6px;
+}
+
+.indicator-fifth {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 174.4px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #E2532F;
+  height: 6px;
+}
+
+.indicator-sixth {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 218px;
+  margin-top: 0px;
+  border-radius: 100px;
+  background-color: #D82225;
+  height: 6px;
+}
+
+
+
+
+.text {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text.headline {
+  font-weight: 500;
+}
+
+.text.headline.left {
+  width: 152px;
+}
+
+.text.headline.left.withmetric {
+  position: relative;
+  top: 6px;
+}
+
+.text.secondary {
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text.secondary.head {
+  margin-top: 4px;
+}
+
+.text.body {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text.metric {
+  width: 50px;
+  margin-left: 16px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.t-button {
+  width: 47px;
+  margin-top: 5px;
+  margin-right: 48px;
+  margin-bottom: 7px;
+  font-family: Montserrat, sans-serif;
+  color: #2271e7;
+  font-weight: 500;
+}
+
+.text-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blank {
+  height: 100px;
+}
+
+.control-div {
+  position: relative;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10px;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.element-div {
+  margin-bottom: 10px;
+}
+
+.text-block {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2px;
+}
+
+.option-button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #8b8b8b;
+}
+
+.option-button.selected {
+  background-color: #000;
+}
+
+
+
+.off{
+  display: none;
+}
+
+
+
+
+
+
